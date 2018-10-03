@@ -1,0 +1,755 @@
+CARGO: /root/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/cargo
+CARGO_CFG_DEBUG_ASSERTIONS: 
+CARGO_CFG_PROC_MACRO: 
+CARGO_CFG_TARGET_ARCH: x86_64
+CARGO_CFG_TARGET_ENDIAN: little
+CARGO_CFG_TARGET_ENV: gnu
+CARGO_CFG_TARGET_FAMILY: unix
+CARGO_CFG_TARGET_FEATURE: fxsr,mmx,sse,sse2
+CARGO_CFG_TARGET_HAS_ATOMIC: 16,32,64,8,cas,ptr
+CARGO_CFG_TARGET_OS: linux
+CARGO_CFG_TARGET_POINTER_WIDTH: 64
+CARGO_CFG_TARGET_THREAD_LOCAL: 
+CARGO_CFG_TARGET_VENDOR: unknown
+CARGO_CFG_UNIX: 
+CARGO_FEATURE_DEFAULT: 1
+CARGO_FEATURE_DEV_URANDOM_FALLBACK: 1
+CARGO_FEATURE_USE_HEAP: 1
+CARGO_HOME: /root/.cargo
+CARGO_MAKEFLAGS: --jobserver-fds=3,6 -j --jobserver-auth=3,6 -j
+CARGO_MANIFEST_DIR: /root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0
+CARGO_MANIFEST_LINKS: ring-asm
+CARGO_PKG_AUTHORS: Brian Smith <brian@briansmith.org>
+CARGO_PKG_DESCRIPTION: Safe, fast, small crypto using Rust.
+CARGO_PKG_HOMEPAGE: 
+CARGO_PKG_NAME: ring
+CARGO_PKG_VERSION: 0.11.0
+CARGO_PKG_VERSION_MAJOR: 0
+CARGO_PKG_VERSION_MINOR: 11
+CARGO_PKG_VERSION_PATCH: 0
+CARGO_PKG_VERSION_PRE: 
+DEBUG: false
+HOME: /root
+HOST: x86_64-unknown-linux-gnu
+LANG: ko_KR.UTF-8
+LANGUAGE: ko_KR.UTF-8
+LD_LIBRARY_PATH: /workspace/Rust/hello-rocket/target/release/deps:/root/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib:/root/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib
+LESSCLOSE: /usr/bin/lesspipe %s %s
+LESSOPEN: | /usr/bin/lesspipe %s
+LOGNAME: root
+LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+MAIL: /var/mail/root
+NUM_JOBS: 2
+OLDPWD: /root
+OPT_LEVEL: 3
+OUT_DIR: /workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out
+PATH: /root/.cargo/bin:/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+PROFILE: release
+PWD: /workspace/Rust/hello-rocket
+RUSTC: rustc
+RUSTDOC: rustdoc
+RUSTUP_HOME: /root/.rustup
+RUSTUP_TOOLCHAIN: nightly-x86_64-unknown-linux-gnu
+RUST_RECURSION_COUNT: 1
+SHELL: /bin/bash
+SHLVL: 2
+SSH_CLIENT: 172.18.0.1 51508 22
+SSH_CONNECTION: 172.18.0.1 51508 172.18.0.17 22
+SSH_TTY: /dev/pts/2
+SSL_CERT_DIR: /usr/lib/ssl/certs
+SSL_CERT_FILE: /usr/lib/ssl/certs/ca-certificates.crt
+TARGET: x86_64-unknown-linux-gnu
+TERM: xterm-color
+USER: root
+_: /root/.cargo/bin/cargo
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aes-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/aes-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/constant_time_test.o" "crypto/constant_time_test.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aesni-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/aesni-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/bsaes-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/bsaes-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/vpaes-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/vpaes-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x86_64-mont-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/x86_64-mont-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x86_64-mont5-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/x86_64-mont5-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/chacha-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/chacha-x86_64-elf.S"
+running: "ar" "crs" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/libring-test.a" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/constant_time_test.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-test
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/generic.o" "crypto/bn/generic.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ecp_nistz256-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/ecp_nistz256-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/p256-x86_64-asm-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/p256-x86_64-asm-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aesni-gcm-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/aesni-gcm-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/montgomery.o" "crypto/bn/montgomery.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ghash-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/ghash-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/poly1305-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/poly1305-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/sha512-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/sha512-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/montgomery_inv.o" "crypto/bn/montgomery_inv.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/sha256-x86_64-elf.o" "/root/.cargo/registry/src/github.com-1ecc6299db9ec823/ring-0.11.0/pregenerated/sha256-x86_64-elf.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/mul.o" "crypto/bn/mul.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aes.o" "crypto/aes/aes.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/bn.o" "crypto/bn/bn.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/shift.o" "crypto/bn/shift.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/e_aes.o" "crypto/cipher/e_aes.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/exponentiation.o" "crypto/bn/exponentiation.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/crypto.o" "crypto/crypto.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/curve25519.o" "crypto/curve25519/curve25519.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ecp_nistz256.o" "crypto/ec/ecp_nistz256.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ecp_nistz.o" "crypto/ec/ecp_nistz.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/mem.o" "crypto/mem.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/gcm.o" "crypto/modes/gcm.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/cpu-intel.o" "crypto/cpu-intel.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x25519-x86_64.o" "crypto/curve25519/x25519-x86_64.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x25519-asm-x86_64.o" "crypto/curve25519/asm/x25519-asm-x86_64.S"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/gfp_p384.o" "crypto/ec/gfp_p384.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/limbs.o" "crypto/limbs/limbs.c"
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("false")
+running "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "include" "-std=c1x" "-Wbad-function-cast" "-Wmissing-prototypes" "-Wnested-externs" "-Wstrict-prototypes" "-fdata-sections" "-ffunction-sections" "-pedantic" "-pedantic-errors" "-Wall" "-Wextra" "-Wcast-align" "-Wcast-qual" "-Wenum-compare" "-Wfloat-equal" "-Wformat=2" "-Winline" "-Winvalid-pch" "-Wmissing-declarations" "-Wmissing-field-initializers" "-Wmissing-include-dirs" "-Wredundant-decls" "-Wshadow" "-Wsign-compare" "-Wundef" "-Wuninitialized" "-Wwrite-strings" "-fno-strict-aliasing" "-fvisibility=hidden" "-Wno-cast-align" "-fstack-protector" "-g3" "-DNDEBUG" "-D_XOPEN_SOURCE=700" "-Wall" "-Wextra" "-c" "-o/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/gfp_p256.o" "crypto/ec/gfp_p256.c"
+running: "ar" "crs" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/libring-core.a" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aes-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aesni-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/bsaes-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/vpaes-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x86_64-mont-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x86_64-mont5-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/chacha-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ecp_nistz256-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/p256-x86_64-asm-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aesni-gcm-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ghash-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/poly1305-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/sha512-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/sha256-x86_64-elf.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/aes.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/bn.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/exponentiation.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/generic.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/montgomery.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/montgomery_inv.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/mul.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/shift.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/e_aes.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/crypto.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/curve25519.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ecp_nistz.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/ecp_nistz256.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/gfp_p256.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/gfp_p384.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/limbs.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/mem.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/gcm.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/cpu-intel.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x25519-x86_64.o" "/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out/x25519-asm-x86_64.o"
+exit code: 0
+cargo:rustc-link-lib=static=ring-core
+cargo:rustc-link-search=native=/workspace/Rust/hello-rocket/target/release/build/ring-8740d910fe3f9d9c/out
