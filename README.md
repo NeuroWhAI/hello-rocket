@@ -1,3 +1,4 @@
+
 # hello-rocket
 
 Hello for the [Rocket](https://rocket.rs) library and [Heroku](https://heroku.com) with Rust!
@@ -7,19 +8,19 @@ Hello for the [Rocket](https://rocket.rs) library and [Heroku](https://heroku.co
 1. Clone this repo.
 > git clone https://github.com/NeuroWhAI/hello-rocket.git
 
-1. Go to 'hello-rocket' directory.
+2. Go to 'hello-rocket' directory.
 > cd hello-rocket
 
-1. Set nightly version.
+3. Set nightly version.
 > rustup override set nightly
 
-1. Create app project on [Heroku](https://heroku.com).
+4. Create app project on [Heroku](https://heroku.com).
 
-1. Connect to app.
+5. Connect to app.
 > heroku login  
 > heroku git:remote -a existing-project-name
 
-1. Set buildpack.
+6. Set buildpack.
 > heroku buildpacks:set https://github.com/emk/heroku-buildpack-rust.git
 
 ## Build & Run
@@ -27,10 +28,10 @@ Hello for the [Rocket](https://rocket.rs) library and [Heroku](https://heroku.co
 1. Build with cargo.
 > cargo build
 
-1. Run.
+2. Run.
 > cargo run
 
-1. Open 'http://localhost:8000'.
+3. Open 'http://localhost:8000'.
 
 ## Deploy
 
@@ -38,10 +39,10 @@ Hello for the [Rocket](https://rocket.rs) library and [Heroku](https://heroku.co
 > git add .  
 > git commit -m "Change something"
 
-1. Push to Heroku.
+2. Push to Heroku.
 > git push heroku master
 
-1. Wait for the deployment to complete.
+3. Wait for the deployment to complete.
 
 ## Custom
 
